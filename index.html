@@ -1,20 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SimpleGood - портфолио начинающего WEB-разработчика</title>
-	<link href="css/font-awesome.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-</head>
 
-<body class="bg-agileinfo">
-	<h1 class="agile-head text-center">На сайте проводятся технические работы</h1>
-	<div class="container-w3">
-		<div class="content1-w3layouts"> 
-			<img src="images/2.png" alt="в разработке">
-			<p class="text-center">Приносим извинения за неудобства. Чтобы улучшить наши услуги, мы на мгновение закрыли наш сайт.</p>
-		</div>
-	</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimpleGood - портфолио начинающего WEB-разработчика</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+</head>
+<body class="body">
+  <h1 class="hero__title">Мои проекты:</h1>
+  <div class="container">
+    <div class="card">
+      <h3 class="card__title">HighPass</h3>
+      <div class="card__descr">
+        <img src="images/highpass.png" />
+        <p class="card__text">
+          Сайт мастер класса фотографий. Верстка реализована на grid элементах.
+          Использовался gulp сборщик, препроцессор sass. Использованны семантические теги. Реализовано:
+          UI-kit.
+          Адаптив, доступность.
+          Поиск(не функциональный)
+          Карта.
+          Форма обратной связи(с валидацией).</p>
+        <div class="card__controls">
+          <a class="card__btn btn-code" target="_blank" href="https://github.com/SimpleGood42-bit/highpass"><span>Код</span></a>
+          <a class="card__btn btn-demo" target="_blank" href="https://simplegood42-bit.github.io/highpass/"><span>Демо</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="card__title">Evclid</h3>
+      <div class="card__descr">
+        <img src="images/evclid.png" />
+        <p class="card__text">
+          Сайт проектных систем. Верстка реализована на flex элементах. Реализован слайдер, UI-kit, внешний вид формы поиска(без функции поиска),
+           реализованы табы, аккордеон, отправка формы обратной связи. Верстка построена на семантических тегах, реализован адаптив и доступность.
+        </p>
+        <div class="card__controls">
+          <a class="card__btn btn-code" target="_blank" href="https://github.com/SimpleGood42-bit/evclid"><span>Код</span></a>
+          <a class="card__btn btn-demo" target="_blank" href="https://simplegood42-bit.github.io/evclid/"><span>Демо</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="card__title">W-Wave</h3>
+      <div class="card__descr">
+        <img src="images/w-wave.png" />
+        <p class="card__text">
+          W-Wave - cайт радиостанции. Верстка реализована на flex элементах. Реализован UI-kit. Использованы семантические теги, адаптив, доступность.
+        </p>
+        <div class="card__controls">
+          <a class="card__btn btn-code" target="_blank" href="https://github.com/SimpleGood42-bit/w-wave"><span>Код</span></a>
+          <a class="card__btn btn-demo" target="_blank" href="https://simplegood42-bit.github.io/w-wave/"><span>Демо</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="card__title">3D Курсы</h3>
+      <div class="card__descr">
+        <img src="images/3dcours.png" />
+        <p class="card__text">
+          Страница продажи 3D курсов от онлайн школы SkillBox. Верстка построена на flex элементах.
+          Реализован UI-kit, адаптив, доступность. Использованы семантические теги.</p>
+        <div class="card__controls">
+          <a class="card__btn btn-code" target="_blank" href="https://github.com/SimpleGood42-bit/3dcours"><span>Код</span></a>
+          <a class="card__btn btn-demo" target="_blank" href="https://simplegood42-bit.github.io/3dcours/"><span>Демо</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="card__title">Lagoona</h3>
+      <div class="card__descr">
+        <img src="images/lagoona.png" />
+        <p class="card__text">Верстка веб сайта без адаптива. Сайт построен на flex элементах, реализован UI-kit, использованны сементические теги.</p>
+        <div class="card__controls">
+          <a class="card__btn btn-code" target="_blank" href="https://github.com/SimpleGood42-bit/lagoona"><span>Код</span></a>
+          <a class="card__btn btn-demo" target="_blank" href="https://simplegood42-bit.github.io/lagoona/"><span>Демо</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="card__title">Найди пару</h3>
+      <div class="card__descr">
+        <p class="card__text">Вам необходимо за 1 минуту найти карточки с одинаковыми номерами, можно выбирать уровень.</p>
+        <img src="images/Find-a-Pair.png" />
+        <div class="card__controls">
+          <a class="card__btn btn-code" target="_blank" href="https://github.com/SimpleGood42-bit/Find-a-Pair"><span>Код</span></a>
+          <a class="card__btn btn-demo" target="_blank" href="https://simplegood42-bit.github.io/Find-a-Pair/"><span>Демо</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
